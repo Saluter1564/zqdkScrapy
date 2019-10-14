@@ -61,7 +61,7 @@ class GetMatchAnalysisNumber(scrapy.Spider):
             item["middle"] = awayMatchList.get("middle")
             item["qiutanMatchId"] = awayMatchList.get("qiutanMatchId")
 
-            yield item
+            # yield item
 
         for homeMatchList in homeStanding:
             item = GetMatchAnalysisNumber()
@@ -85,4 +85,4 @@ class GetMatchAnalysisNumber(scrapy.Spider):
             item["middle"] = homeMatchList.get("middle")
             item["qiutanMatchId"] = homeMatchList.get("qiutanMatchId")
 
-            yield item
+            # yield item
