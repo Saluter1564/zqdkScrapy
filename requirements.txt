@@ -6,7 +6,7 @@ Automat==0.7.0
 cffi==1.12.3
 click==6.7
 constantly==15.1.0
-cryptography==2.7
+cryptography==3.2
 cssselect==1.1.0
 Flask==0.12.1
 Flask-BasicAuth==0.2.0
